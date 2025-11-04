@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
+import java.util.List;
 
-public interface IRechercheAvancee {
+public interface IRechercheAvancee<T> {
+    List<T> rechercherParDepartement(String nomDepartement);
 }
